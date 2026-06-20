@@ -384,4 +384,56 @@ else {
 
 }
 // 7
-let number=+ prompt("number",0)
+
+function factorial(){
+    let number= + prompt("Enter Number",0)
+    let results2 = 1
+    for (let i = number ; i >= 1 ; --i)
+    {
+       results2 = results2 * i
+    }
+            
+             alert(results2) 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function factorial1(){
+    let numbers2 = + prompt("NUMber",0)
+    let reslut12 =1 
+    
+    
+    for(let i; i >= 1 ; --i){
+         reslut12 = reslut12 * i
+
+    }
+
+    alert(results2)
+}
+factorial1()
