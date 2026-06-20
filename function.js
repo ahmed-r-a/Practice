@@ -383,8 +383,74 @@ else {
 }
 
 }
-// 7
+// 8
+/*function dis(){
+    let price = +prompt("Price",0)
+let discornd = 0
+let finly = 0
+if(price <= 499 && price >= 99 ){
+     discornd = 10
+     discornd_value= price * discornd / 100
+     finly=price-discornd_value
+     alert(finly)
 
+    }
+    else if(price >= 500 ){
+     discornd = 20
+     discornd_value= price * discornd / 100
+     finly=price-discornd_value
+     alert(finly)
+    }
+    else{
+        alert(price)
+    }}*/
+//9
+/*
+function multex(){
+    let num4 = +prompt("Number",0)
+let reslut123=1
+let i =0
+    for (let i=1;i<=10;i++)
+    {
+        reslut123=i*num4
+        alert(`${i}X${num4}:${reslut123}`)
+    }
+
+}*/
+//10
+
+
+
+/*function sum12(){
+    let n = 10
+     let reslut1234 =0
+    for(let i = 1 ; i < n; i++){
+          
+         reslut1234 += i 
+     
+      
+    }
+      alert(reslut1234) 
+}*/
+//11
+
+
+//12
+function jo(){
+    for(let i = 10;i > -1; i-- ){
+        if(i>=1){
+            alert(i)
+        }
+        else{
+            alert("GO")
+        }
+    }
+}
+jo()
+
+//13
+
+//finly
 function factorial(){
     let number= + prompt("Enter Number",0)
     let results2 = 1
@@ -395,45 +461,16 @@ function factorial(){
             
              alert(results2) 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//finly
 function factorial1(){
     let numbers2 = + prompt("NUMber",0)
     let reslut12 =1 
     
     
-    for(let i; i >= 1 ; --i){
+    for(let i =numbers2 ; i >= 1 ; --i){
          reslut12 = reslut12 * i
 
     }
 
-    alert(results2)
+    alert(reslut12)
 }
-factorial1()
