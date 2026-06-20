@@ -449,7 +449,24 @@ function jo(){
 jo()
 
 //13
-
+function max(){
+let a =10
+let b =100
+let c =20
+if(a>b && a>c){
+    
+    alert(`the larger number is a:${a}`)
+}
+else if(b>a && b>c){
+alert(`the larger number is b:${b}`)
+}
+else if(c>a && c>b){
+alert(`the larger number is c:${c}`)
+}
+else 
+    alert("Error")
+}
+max()
 //finly
 function factorial(){
     let number= + prompt("Enter Number",0)
