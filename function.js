@@ -568,9 +568,26 @@ max(2,7)
 add(2,3)
 sub(2,3)
 mult(2,4)
-div(2,3)
+div(4,2)
 even(3)
 square(3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 module.exports = { add ,
      sub ,
       mult ,
