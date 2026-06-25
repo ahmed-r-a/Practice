@@ -61,22 +61,22 @@ describe("odd",() => {
 test(`3 is odd`,()=> {
     expect(odd(3)).toBe(true);
 });
+});
 describe("max",() => {
 
 test(`7 is lager number`,()=> {
     expect(max(2,7)).toBe(7);
 });
-describe("max",() => {
+});
+describe("isPositive",() => {
 
 test(`isPositive`,()=> {
     expect(isPositive(3)).toBe(true);
 });
-describe("max",() => {
+});
+describe("isnav",() => {
 
 test(`isnav`,()=> {
     expect(isnav(3)).toBe(false);
-});
-});
-});
 });
 });

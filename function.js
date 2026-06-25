@@ -567,28 +567,11 @@ isnav(-1)
 max(2,7)
 add(2,3)
 sub(2,3)
-mult(2,4)
+mult(4,2)
 div(4,2)
 even(3)
 square(3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-module.exports = { add ,
+/*module.exports = { add ,
      sub ,
       mult ,
        div ,
@@ -597,7 +580,166 @@ module.exports = { add ,
           odd ,
            max,
            isPositive,
-           isnav
+           isnav,
+           obj
            
         
         }
+           */
+let user={}
+user.name ="John"
+user.surname ="Smith"
+user.name="pate"
+delete user.name
+
+function isEmpty1(){
+    let schedule = {};
+if(isEmpty(obj) = true){
+alert( isEmpty(schedule) ); // true
+}
+else
+
+alert( isEmpty(schedule) ); // false
+
+
+}
+
+let salaries1 = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+function sumsus(){
+    let reslut=salaries1.Ann + salaries1.Pete + salaries1.John
+    alert(reslut)
+}
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+function sumsus(){
+    alert(salaries.Ann + salaries.Pete + salaries.John)
+}
+
+// before the call
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+function multiplyNumeric(){
+    for (let key in menu){
+        menu[key]
+    }
+}
+let calculator = {
+    read(){
+        this.a = +prompt("Number1",)
+        this.b = +prompt("Number2",)
+    },
+  sum(){
+    return this.a + this.b
+  },
+  mul(){
+return this.a * this.b
+    },
+}
+
+//calculator.read();
+//alert( calculator.sum() );
+//alert( calculator.mul() );
+// after the call
+function factorial23(){
+    let number =+prompt("number",0)
+    let reslut = 1
+    for (let i = number ; i >= 1 ; i-- ){
+        reslut = reslut * i
+
+    }
+    alert(reslut)
+}
+let calculator1 = {
+  sum() {
+    return this.a + this.b;
+  },
+  
+  mul() {
+    return this.a * this.b;
+  },
+  
+  read() {
+    this.a = +prompt("a?", 0);
+    this.b = +prompt("b?", 0);
+  }
+};
+/*
+calculator1.read();
+alert( calculator1.sum() );
+alert( calculator1.mul() );
+*/
+let ladder = {
+  step: 0,
+  up() {
+    this.step++;
+    return this
+  },
+  down() {
+    this.step--;
+    return this
+  },
+  showStep: function() { // shows the current step
+    alert( this.step );
+    return this;
+  }
+};
+
+//ladder.up().up().down().showStep().down().showStep(); // shows 1 then 0
+function calculator12() {
+
+  this.sum = function() {
+    return this.a + this.b;
+  };
+  
+  this.mul = function() {
+    return this.a * this.b;
+  };
+  
+  this.read= function() {
+    this.a = +prompt("a?", 0);
+    this.b = +prompt("b?", 0);
+  };
+};
+let Calculator = new calculator12();
+/*
+Calculator.read();
+alert("Sums=" + Calculator.sum() );
+alert("Mul=" + Calculator.mul() );
+*/
+function Accumulator(startingValue){
+  this.value = startingValue;
+
+
+ this.read= function() {
+    this.value += +prompt("a?", 0);
+  };    
+}
+
+let accumulator = new Accumulator(1); // initial value 1
+/*
+accumulator.read(); // adds the user-entered value
+accumulator.read(); // adds the user-entered value
+*/
+alert(accumulator.value); // shows the sum of these values
+function Optional_chaining(){
+    
+    
+    let user = {};
+
+    alert(user.address ? user.address.street : undefined)
+    let html = docment.querySelector('.elem').innerHTML ? document.querySelector('.elem').innerHTML : null
+    alert(html)
+
+}
+
+Optional_chaining()
