@@ -742,4 +742,16 @@ function Optional_chaining(){
 
 }
 
-Optional_chaining()
+
+function readNumber1(){
+  let readNumber = +prompt("enter")
+      if(readNumber >=0){
+        alert(readNumber)
+  }
+  else if(readNumber <=0){
+      alert(readNumber) 
+  }
+  else
+  alert(null)
+  }
+readNumber1()
